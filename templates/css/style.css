@@ -1,0 +1,198 @@
+html {
+    overflow-y: scroll;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family: Arial, Helvetica;
+}
+
+
+table{
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+
+}
+.table{
+    display: table;
+    width: 100%;
+}
+
+.tr        { display: table-row; }
+.thead     { display: table-header-group; }
+.tbody     { display: table-row-group; }
+.tfoot     { display: table-footer-group; }
+.col       { display: table-column; }
+.colgroup  { display: table-column-group; }
+.td,.th    { display: table-cell; }
+.caption   { display: table-caption; }
+.row { display: table-row; }
+.cell { display: table-cell;  }
+.clear-cell { display: table-cell;  }
+
+.jem-product {
+    width: 45%;
+}
+
+.jem-quantity {
+    width: 15%;
+}
+
+.jem-price {
+    width: 20%;
+}
+
+
+.jem-total {
+    width: 20%;
+}
+
+.jem-equal-height {
+    display: flex;
+}
+
+.jem-invoice-summary{
+    font-size: 12px;
+    padding:5px;
+    width: 100%;
+    vertical-align: top;
+}
+.jem-order-list{
+
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    padding:5px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom-color: #000000;
+}
+
+.jem-order-list tr{
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    text-align: left;
+}
+.jem-order-list th{
+
+    background-color: #7E97AD;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding:6px;
+    text-align: left;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+}
+.jem-order-list td{
+
+    padding:6px;
+    font-weight: normal;
+    vertical-align:top;
+    color: #000000;
+    border: 2px solid #FFFFFF;
+    font-weight: normal;
+    background-color: #F5F5F5;
+    -webkit-print-color-adjust: exact;
+
+}
+
+
+.jem-subtotals td{
+    border: 0px;
+    background-color: #ffffff;
+}
+.jem-cust-notes  {
+    vertical-align: top !important;
+}
+
+.jem-subtotals-items{
+    width: 100%;
+}
+.jem-subtotals-items td{
+    width: 50%;
+
+}
+.jem-line-header{
+    background-color: #576099;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding:5px;
+    box-sizing: border-box;
+}
+
+.jem-line-item{
+    padding:6px;
+    vertical-align:middle;
+    color: #000000;
+    border: 2px solid #FFFFFF;
+    font-weight: normal;
+    background-color: #F5F5F5;
+    -webkit-print-color-adjust: exact;
+    box-sizing: border-box;
+}
+
+.jem-text-align-right{ text-align: right; }
+
+.jem-pdf-store-logo{
+    width: 49%;
+    display:inline-block;
+}
+
+
+.jem-pdf-third{
+    width: 33%;
+    vertical-align: top;
+}
+
+
+.jem-pdf-store-details{
+    width: 49%;
+    display:inline-block;
+    text-align: right;
+    float: right;
+    padding-right: 5px;
+}
+.solid-header{
+    background-color: #7E97AD;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.jem-pdf-container{
+    width:100%;
+    display: block;
+}
+.jem-pdf-sub-container{
+    width: 98%;
+    padding: 2% 1% 1% 1%;
+}
+.jem-pdf-inner-container{
+    width:100%;
+    display:block;
+    margin-bottom: 10px;
+    /*border-bottom: 1px solid #c6c6c6; */
+}
+
+
+.store-title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.jem-name{
+    font-weight:bold;
+}
+

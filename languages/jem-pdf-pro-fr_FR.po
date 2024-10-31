@@ -1,0 +1,654 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JEM PDF Invoices\n"
+"POT-Creation-Date: 2016-04-30 16:49+0530\n"
+"PO-Revision-Date: 2016-04-30 16:52+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:82 includes/dashboard.php:12
+msgid "General Settings"
+msgstr "Parametres généraux"
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:88
+msgid "View PDF Option"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:89
+msgid ""
+"How an end customer will actually see the invoice. Either downloaded in "
+"their browser or opened in a new window."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:94
+msgid "Download the PDF"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:95
+msgid "Open the PDF in a new Browser Window"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:102
+msgid "Allow Customer to Download Email"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:103
+msgid ""
+"Allows the customer to download an invoice. If set to Always and no invoice "
+"is created then one will need to be generated &ndash; regular&frasl;Proforma "
+"rules need to be followed."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:108
+msgid "Only if Invoice has been created"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:109
+msgid "Never"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:110
+msgid "Always"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:117
+msgid ""
+"Do NOT create an email if ALL the products on the order have a price of 0 "
+"and the total is also zero (including shipping)."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:119
+msgid "Disable Invoices for Free Products"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:128
+msgid "Select Template"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:129
+msgid "This allows different templates to be used to generate the pdf Invoice."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:134
+msgid "Default Template"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:150
+msgid "Paper Size"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:151
+msgid "This will be the paper size fed into the PDF engine."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:156
+msgid "Default Paper Size"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:157
+msgid "Letter"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:158
+msgid "A4"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:165
+msgid "Date Format"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:166
+msgid "Controls how dates appears. Should be valid date format, ex: DD/MM/YY "
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:176
+msgid "Regular Invoice"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:181
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:272
+msgid "Attach to Email"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:182
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:273
+msgid "This specifies which email an invoice should be sent with."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:186
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:277
+msgid "Admin New Order"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:187
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:278
+msgid "Admin Cancelled Order"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:188
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:279
+msgid "Customer Processing Order"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:189
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:280
+msgid "Customer Completed Order"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:190
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:281
+msgid "Customer Invoice"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:191
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:282
+msgid "Customer Cancelled Order"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:192
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:283
+msgid "Customer Refunded Order"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:198
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:289
+msgid "Number Type"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:199
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:213
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:290
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:304
+msgid ""
+"Controls if the WooCommerce order number is used or Custom Invoice Number."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:204
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:295
+msgid "Use WooCommerce Order Number"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:205
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:296
+msgid "Custom Invoice Number"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:212
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:303
+msgid "Next Invoice Number"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:223
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:314
+msgid "Invoice Prefix"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:224
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:315
+msgid ""
+"You can enter a prefix for the invoice number. {{month}} or {{year}} will "
+"insert the order month and/or year."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:234
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:325
+msgid "Invoice Suffix"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:235
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:326
+msgid ""
+"can enter a suffix for the invoice number. {{month}} or {{year}} will insert "
+"the order month and/or year."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:245
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:336
+msgid "# Digits"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:246
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:337
+msgid "Integer that specifies how many digits the invoice number should be."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:256
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:583 jem-pdf-pro.php:205
+msgid "Proforma Invoice"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:261
+msgid "Enable Proforma Invoices"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:262
+msgid "Controls if Proforma invoices are enabled or not."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:349
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:447
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:559
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:731
+msgid "Save changes"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:360
+msgid "Layout Settings"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:365
+msgid "Logo"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:366
+msgid "Upload Invoice Header Logo."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:370
+msgid "Select Store Logo"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:385
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:462
+msgid "Remove Empty Lines"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:386
+msgid ""
+"If checked it will remove any lines that are blank e.g. buyer_address_2."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:395
+msgid "Store Name"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:396
+msgid "Allows you to enter the name of the store."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:405
+msgid "Store Address"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:406
+msgid "Allows you to enter the address of the store."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:415
+msgid "Buyer Detail"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:416
+msgid "Allows you to enter the buyer detail using placeholders."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:425
+msgid "Shipping Detail"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:426
+msgid "Allows you to enter the shipping detail using placeholders."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:435
+msgid "Invoice Information"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:436
+msgid "Allows you to enter the invoice info."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:457
+msgid "Detailed Content Layout"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:463
+msgid "If checked it will remove any lines that are blank."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:472
+msgid "SKU"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:473
+msgid "If checked it will add sku in line item."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:482
+msgid "Product Category"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:483
+msgid "If checked it will add product category in line item."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:492
+msgid "Short Description"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:493
+msgid "If checked it will add product Short Description in line item."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:502
+msgid "Product Image"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:503
+msgid "If checked it will add product image in line item."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:512
+msgid "Show Shipping if free"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:513
+msgid "If checked it will display Shipping if free."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:523
+msgid "Tax Settings"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:527
+msgid "Display Tax Inline"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:528
+msgid ""
+"If selected will display tax rate, tax amount and net amount for each line "
+"item."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:537
+msgid "Display total excl. of tax"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:538
+msgid "If enabled will display an EXTRA subtotal EXCLUSIVE of tax."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:547
+msgid "Display tax totals"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:548
+msgid "Controls if we display tax totals."
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:569
+msgid "Localization Settings"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:575 jem-pdf-pro.php:209
+msgid "Invoice"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:591
+msgid "Invoice Date"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:600 templates/bulk/body.php:62
+#: templates/default-invoice.php:75 templates/default-proforma.php:72
+msgid "Tax"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:608
+msgid "Tax %"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:616 templates/bulk/body.php:55
+#: templates/default-invoice.php:68 templates/default-proforma.php:65
+msgid "Price"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:624 templates/bulk/body.php:54
+#: templates/default-invoice.php:67 templates/default-proforma.php:64
+msgid "Quantity"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:632
+msgid "Shipping"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:640
+msgid "Shipping Tax"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:648
+msgid "Subtotal"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:656
+msgid "Cart Discount"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:664
+msgid "Order Discount"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:672 templates/bulk/body.php:65
+#: templates/default-invoice.php:78 templates/default-proforma.php:75
+msgid "Total"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:680
+msgid "Order Notes"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:688
+msgid "Amount in words"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:696 jem-pdf-pro.php:172
+#: jem-pdf-pro.php:995
+msgid "Download Invoice"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:704
+msgid "Download Proforma Invoice"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:712
+msgid "Invoice Number"
+msgstr ""
+
+#: classes/Jem_Pdf_Dashboard_Settings.class.php:720
+msgid "Order Number"
+msgstr ""
+
+#: classes/class-wc-email-customer-cancelled-order.php:28
+msgid "Customer Cancelled order"
+msgstr ""
+
+#: classes/class-wc-email-customer-cancelled-order.php:29
+msgid ""
+"Cancelled order emails are sent to chosen recipient(s) when orders have been "
+"marked cancelled (if they were previously processing or on-hold)."
+msgstr ""
+
+#: classes/class-wc-email-customer-cancelled-order.php:30
+msgid "Cancelled order"
+msgstr ""
+
+#: classes/class-wc-email-customer-cancelled-order.php:31
+msgid "[{site_title}] Cancelled order ({order_number})"
+msgstr ""
+
+#: classes/class-wc-email-customer-cancelled-order.php:107
+msgid "Enable/Disable"
+msgstr ""
+
+#: classes/class-wc-email-customer-cancelled-order.php:109
+msgid "Enable this email notification"
+msgstr ""
+
+#: classes/class-wc-email-customer-cancelled-order.php:113
+msgid "Subject"
+msgstr ""
+
+#: classes/class-wc-email-customer-cancelled-order.php:115
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+
+#: classes/class-wc-email-customer-cancelled-order.php:121
+msgid "Email Heading"
+msgstr ""
+
+#: classes/class-wc-email-customer-cancelled-order.php:123
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+
+#: classes/class-wc-email-customer-cancelled-order.php:129
+msgid "Email type"
+msgstr ""
+
+#: classes/class-wc-email-customer-cancelled-order.php:131
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: includes/dashboard.php:5
+msgid "Setting Updated!"
+msgstr ""
+
+#: includes/dashboard.php:14
+msgid "Header & Footer"
+msgstr "En-tête & pied de page"
+
+#: includes/dashboard.php:16
+msgid "Detailed Content"
+msgstr "contenu détaillé"
+
+#: includes/dashboard.php:18
+msgid "Localization"
+msgstr "Localisation"
+
+#: jem-pdf-pro.php:134
+msgid "PDF Invoices"
+msgstr ""
+
+#: jem-pdf-pro.php:145 jem-pdf-pro.php:146
+msgid ""
+"This invoice has not been created yet – are you sure you want to create it?"
+msgstr ""
+
+#: jem-pdf-pro.php:147
+msgid "Are you sure ? you want to delete invoice."
+msgstr ""
+
+#: jem-pdf-pro.php:148
+msgid "Are you sure ? you want to delete proforma invoice."
+msgstr ""
+
+#: jem-pdf-pro.php:177
+msgid "Delete Invoice"
+msgstr ""
+
+#: jem-pdf-pro.php:188 jem-pdf-pro.php:975
+msgid "Download Proforma"
+msgstr ""
+
+#: jem-pdf-pro.php:189
+msgid "Delete Proforma"
+msgstr ""
+
+#: jem-pdf-pro.php:235
+msgid "Invoice deleted successfully."
+msgstr ""
+
+#: jem-pdf-pro.php:240
+msgid "Proforma Invoice deleted successfully."
+msgstr ""
+
+#: jem-pdf-pro.php:254 jem-pdf-pro.php:255
+msgid "Download Invoices"
+msgstr ""
+
+#: jem-pdf-pro.php:614
+msgid "Subtotal:"
+msgstr ""
+
+#: jem-pdf-pro.php:622
+msgid "Discount:"
+msgstr ""
+
+#: jem-pdf-pro.php:629 jem-pdf-pro.php:637
+msgid "Shipping:"
+msgstr ""
+
+#: jem-pdf-pro.php:653
+msgid "Fee"
+msgstr ""
+
+#: jem-pdf-pro.php:691
+msgid "Payment Method:"
+msgstr ""
+
+#: jem-pdf-pro.php:699
+msgid "Refund"
+msgstr ""
+
+#: jem-pdf-pro.php:706
+msgid "Total:"
+msgstr ""
+
+#: jem-pdf-pro.php:979
+msgid "View Proforma"
+msgstr ""
+
+#: jem-pdf-pro.php:999
+msgid "View Invoice"
+msgstr ""
+
+#: jem-pdf-pro.php:1224
+msgid "JEM PDF Invoices"
+msgstr ""
+
+#: templates/bulk/body.php:40 templates/default-invoice.php:53
+#: templates/default-proforma.php:50
+msgid "Product"
+msgstr ""
+
+#: templates/bulk/body.php:43 templates/default-invoice.php:56
+#: templates/default-proforma.php:53
+msgid "Sku"
+msgstr ""
+
+#: templates/bulk/body.php:47 templates/default-invoice.php:60
+#: templates/default-proforma.php:57
+msgid "Category"
+msgstr ""
+
+#: templates/bulk/body.php:51 templates/default-invoice.php:64
+#: templates/default-proforma.php:61
+msgid "Desc"
+msgstr ""
+
+#: templates/bulk/body.php:58 templates/default-invoice.php:71
+#: templates/default-proforma.php:68
+msgid "Tax Rate(%)"
+msgstr ""
+
+#: templates/bulk/body.php:86 templates/default-invoice.php:99
+#: templates/default-proforma.php:96
+msgid "Standard"
+msgstr ""

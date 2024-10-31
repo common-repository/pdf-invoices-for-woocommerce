@@ -1,0 +1,145 @@
+.form-table th{
+    width: 300px;
+}
+.jem-pdf-row{
+    display: block;
+    line-height: 22px;
+}
+
+.jem-pdf-row input[type="checkbox"],
+.jem-pdf-row span{
+    display: inline-block;
+}
+
+.jem-pdf-row span{
+   padding-left:4px;
+}
+
+.jem-half{
+    width:50%;
+}
+
+#preview_jem_pdf_logo{
+    max-width: 120px;
+    display: inline-block;
+    position: relative;
+}
+
+#preview_jem_pdf_logo > .remove-bg{
+    position:absolute;
+    right:-5px;
+    top: -5px;
+    text-decoration: none;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 100%;
+    width:10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#preview_jem_pdf_logo > img{
+    border: 1px solid #ccc;
+}
+
+@font-face {
+    /*font-family: 'icomoon';*/
+    /*src:    url('../fonts/icomoon.eot?ens7bk');*/
+    /*src:    url('../fonts/icomoon.eot?ens7bk#iefix') format('embedded-opentype'),*/
+    /*url('../fonts/icomoon.ttf?ens7bk') format('truetype'),*/
+    /*url('../fonts/icomoon.woff?ens7bk') format('woff'),*/
+    /*url('../fonts/icomoon.svg?ens7bk#icomoon') format('svg');*/
+    /*font-weight: normal;*/
+    /*font-style: normal;*/
+    font-family: 'icomoonfree';
+    url('../fonts/icomoon-free.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+}
+
+.order_actions .jem_pdf_output,
+.order_actions .jem_proforma_output {
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    padding: 0!important;
+    height: 2em!important;
+    width: 2em;
+}
+
+/*.jem_pdf_output:after,*/
+/*.jem_proforma_output:after{*/
+    /*font-family: 'icomoonfree' !important;*/
+    /*speak: none;*/
+    /*text-indent: 0;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*position: absolute;*/
+    /*font-variant: normal;*/
+    /*text-transform: none;*/
+    /*-webkit-font-smoothing: antialiased;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*line-height: 1.85;*/
+    /*margin: 0;*/
+    /*text-align: center;*/
+    /*font-weight: 400;*/
+    /*!* Better Font Rendering =========== *!*/
+    /*-webkit-font-smoothing: antialiased;*/
+    /*-moz-osx-font-smoothing: grayscale;*/
+/*}*/
+
+/*.jem_pdf_output:after,*/
+/*.jem_proforma_output:after{*/
+    /*content: "\e900";*/
+/*}*/
+/*.jem_pdf_output_packing_slip:after{*/
+    /*content: "\e9ba";*/
+/*}*/
+/*.jem_proforma_output:after{*/
+    /*color:#ff0000;*/
+/*}*/
+.jem-button{
+    display: block;
+    padding: 5px 0px;
+}
+
+.jem-meta-info{
+    width: 50%;
+    float: left;
+}
+
+.jem-align-right{
+    text-align: right;
+}
+
+.jem-center{
+    display: flex;
+    justify-content: center;
+}
+
+.jem-clearfix{
+    clear: both;
+}
+
+#loading-img {
+    /*background: url(http://preloaders.net/preloaders/360/Velocity.gif) center center no-repeat;*/
+    background: url('../images/loading2.gif') center center no-repeat;
+    height: 100%;
+    z-index: 20;
+}
+.overlay {
+    background: #e9e9e9;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%
+}
